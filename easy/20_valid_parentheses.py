@@ -7,7 +7,6 @@ class Solution:
         }
         stack = []
         opening_brackets = {"[", "{", "("}
-        closing_brackets = {"]", "}", ")"}
         for bracket in s:
             if bracket in opening_brackets:
                 stack.append(bracket)
